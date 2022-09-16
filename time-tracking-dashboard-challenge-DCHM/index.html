@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="main-container">
+
+    <section class="profile-section">
+      <div class="main-card">
+        <div class="main-card__user">
+          <img id="main-card__image" src="./images/image-jeremy.png" alt="Profile picture">
+          <div>
+            <p class="main-card__title">Report for</p> 
+            <p class="main-card__name">Jeremy Robson</p> 
+          </div>
+        </div> <!-- Card con datos del perfil -->
+
+        <div class="main-card__options">
+          <p class="main-card__frequency" id="daily" value="daily">Daily</p>
+          <p class="main-card__frequency" id="weekly" value="weekly">Weekly</p>
+          <p class="main-card__frequency" id="monthly" value="monthly">Monthly</p>
+        </div> <!-- Card con optiones de la frecuencia -->
+      </div> <!-- Card principal -->
+    </section> <!-- Profile Section -->
+    
+
+    <section class="content-section">
+
+      <!-- <div class="card">
+        <div class="card__background">
+          <img class="card__image" src="./images/icon-work.svg" alt="background image">
+        </div> 
+        <div class="card__details">
+          <div class="card__header">
+            <p class="card__title">Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="elipsis three dots">
+          </div>
+          <div class="card__contents">
+            <p class="card__hours" id="hours">5 Hrs</p>
+            <p class="card__previous">Previous - 3 Hrs</p>
+          </div>
+        </div>
+       </div>  -->
+       <!-- Card Work-->
+
+    </section> <!-- Content Section -->
+
+  </main> <!-- Main Container -->
+  
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+    Coded by <a href="#">Daniel Chaparro Marin</a>.
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
